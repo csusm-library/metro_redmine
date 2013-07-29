@@ -1,0 +1,172 @@
+/* typography */
+body,p,ul,li,dl,dt,dd,div,a,label,table,tr,th,td,
+.tabular label,
+table.list tbody td, table.list tbody tr:hover td {
+  font-size:14px;
+}
+
+/*iconified links */
+a.icon{
+  padding-left: 30px !important;
+}
+
+/*header */
+#top-menu a, #top-menu a:link {
+  margin-right: 18px;
+}
+#header{
+  padding-bottom: 25px;
+}
+#header a ,
+#header > h1{
+  font-size: 25px;
+}
+#header #project_quick_jump_box_chzn a {
+  font-size:14px;
+  line-height: normal;
+}
+#project_quick_jump_box_chzn span{
+  padding: 1px 7px;
+}
+
+/*project lists*/
+.projects-tree .description-wrapper,
+.projects-tree .description,
+.projects-tree .created{
+  display:none;
+}
+#content #issue-form .box #attachments_form .add_attachment a,
+#content #issue-form .box #attachments_form .add_attachment a:link,
+#content #issue-form .box #watchers_form .search_for_watchers a,
+#content #issue-form .box #watchers_form .search_for_watchers a:link,
+a.xls,
+a:link.xls,
+a.xlse,
+a:link.xlse{
+  padding-left: 23px !important;
+}
+a.add_attachment,
+a:link.add_attachment,
+#content #issue-form a.add_attachment,
+#sidebar a,
+#sidebar a:link,
+#sidebar a.selected{
+  padding-left: 30px !important;
+}
+#sidebar a, #sidebar .watchers a:link{
+  padding-left: 0 !important;
+}
+#sidebar a.selected{
+  font-weight: bold;
+  text-decoration: none;
+}
+table.list tr.priority-7,
+table.list tr.priority-7 a,
+table.list tr.priority-5,
+table.list tr.priority-5 a{
+  color: #fff!important;
+}
+table.list tr.priority-7:hover,
+table.list tr.priority-5:hover{
+  color: #fff;
+  background: #da532c;
+}
+table.list tr.priority-7 a:hover,
+table.list tr.priority-5 a:hover,
+table.list tr.priority-7:hover a,
+table.list tr.priority-5:hover a{
+  color: #fff!important;
+}
+table.fav-projects th,
+table.fav-projects td{
+  font-size:13px!important;
+}
+table.fav-projects th a,
+table.fav-projects td a{
+  font-size:13px!important;
+  color:#7e3878!important;
+}
+
+/*my page layout*/
+.controller-my.action-page_layout #block-form label{
+  color: #fff;
+}
+
+/*issues table */
+fieldset#filters table {
+  margin: 0;
+}
+.controller-issues #query_form .buttons{
+  margin-top:0;
+}
+table.issues th,
+table.issues td{
+  font-size:13px!important;
+}
+table.issues th a,
+table.issues td a{
+  font-size:13px!important;
+  color:#7e3878!important;
+}
+table.issues .context-menu-selection a{
+  color: #fff!important;
+}
+#context-menu .folder ul a{
+  padding-left: 30px!important;
+}
+
+/* issues display */
+#history .journal h4{
+  font-size: 14px;
+}
+/* project menu */
+#main-menu {
+  height: 41px;
+}
+
+/* Date picker */
+.ui-datepicker-week-col,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  padding: 0 5px!important;
+  margin: 0;
+  font-size: 13px;
+}
+.ui-datepicker .ui-datepicker-header {
+  background: #555;
+  color: #fff;
+}
+
+/* project pages */
+#sidebar .favorite-locations-box {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  color: #000;
+  border: none;
+}
+
+
+/*context menus*/
+.submenu,a:link.submenu{
+  padding-left: 25px!important;
+}
+
+/* admin fixes */
+.controller-settings.action-plugin .tabular.settings label {
+  margin-left: 0;
+  width: 295px;
+}
+
+/*gantt*/
+.gantt_subjects div {
+  line-height: 16px;
+  height: 16px;
+  font-size:11px;
+}
+.gantt_subjects div a{
+  padding-left:26px;
+  font-size:11px;
+}
