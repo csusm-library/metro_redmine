@@ -4,10 +4,34 @@ body,p,ul,li,dl,dt,dd,div,a,label,table,tr,th,td,
 table.list tbody td, table.list tbody tr:hover td {
   font-size:14px;
 }
+a:link {
+  margin: 0;
+  line-height: normal;
+}
 
 /*iconified links */
 a.icon{
   padding-left: 30px !important;
+}
+div.wiki .external {
+  padding-left: 12px !important;
+}
+.contextual a, .contextual a:link, .contextual a:visited {
+  margin-left:5px;
+  color:#7E3878;
+  background-color: transparent;
+}
+.icon-edit {
+    background-image: url("../images/Folder-Edit2.png");
+}
+.icon-fav {
+    background-image: url("../images/Folder-UnFav2.png");
+}
+.icon-copy {
+    background-image: url("../images/Copy-Folder2.png");
+}
+.icon-del {
+    background-image: url("../images/Folder-Delete2.png");
 }
 
 /*header */
@@ -119,11 +143,21 @@ table.issues .context-menu-selection a{
 #history .journal h4{
   font-size: 14px;
 }
+
 /* project menu */
 #main-menu {
   height: 41px;
 }
 
+/* project overview page */
+.splitcontentleft ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+.splitcontentleft li{
+  margin: 0 0 7px;
+}
 /* Date picker */
 .ui-datepicker-week-col,
 .ui-state-default,
@@ -150,8 +184,15 @@ table.issues .context-menu-selection a{
 
 
 /*context menus*/
+#context-menu a {
+  background: transparent;
+}
 .submenu,a:link.submenu{
   padding-left: 25px!important;
+}
+#context-menu li a.submenu {
+    background: url("../images/bullet_arrow_right.png") no-repeat scroll right center transparent;
+    padding-right: 16px;
 }
 
 /* admin fixes */
@@ -169,4 +210,9 @@ table.issues .context-menu-selection a{
 .gantt_subjects div a{
   padding-left:26px;
   font-size:11px;
+}
+
+/* forms - general */
+input.autocomplete {
+  padding-left: 30px;
 }
