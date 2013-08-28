@@ -18,7 +18,7 @@ div.wiki .external {
 }
 .contextual a, .contextual a:link, .contextual a:visited {
   margin-left:5px;
-  color:#7E3878;
+  color:#DA532C;
   background-color: transparent;
 }
 .icon-edit {
@@ -44,6 +44,7 @@ div.wiki .external {
 #header a ,
 #header > h1{
   font-size: 25px;
+  background: none;
 }
 #header #project_quick_jump_box_chzn a {
   font-size:14px;
@@ -51,6 +52,13 @@ div.wiki .external {
 }
 #project_quick_jump_box_chzn span{
   padding: 1px 7px;
+}
+#quick-search{
+  margin: 0;
+}
+#quick-search form{
+  position: relative;
+  top: -8px;
 }
 
 /*project lists*/
